@@ -1,0 +1,363 @@
+.Navbar {
+  padding: 0;
+  margin: 0;
+  background-color: #1a1a1a;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding: 10px 0;
+}
+.Navbar .content {
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.Navbar h3 {
+  margin: 0;
+}
+.Navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.Navbar ul li {
+  margin: 0 10px;
+}
+.Navbar ul li:last-child {
+  margin-right: 0;
+}
+.Navbar ul p {
+  margin: 0 5px;
+}
+@media screen and (max-width: 768px) {
+  .Navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  .Navbar .content {
+    padding: 10px;
+  }
+  .Navbar ul {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .Navbar ul li {
+    margin: 5px 0;
+  }
+  .Navbar ul li:last-child {
+    margin-bottom: 0;
+  }
+  .Navbar ul p {
+    display: none;
+  }
+}
+
+.Footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 999;
+}
+
+.Home {
+  width: 100vw;
+  height: 90vh;
+  margin: auto;
+  background-color: bisque;
+}
+
+.Error404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1a1a;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.connectContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.connectContainer img {
+  width: 10%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+}
+.connectContainer h1 {
+  font-size: 100%;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: #3b3b3b;
+  width: 100%;
+  text-align: center;
+}
+.connectContainer span {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: auto;
+}
+.connectContainer Button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  background-color: #212529;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 10px;
+}
+.connectContainer Button:hover {
+  background-color: #ffffff !important;
+  color: #212529 !important;
+  border: 1px solid #212529 !important;
+  font-weight: 600;
+}
+.connectContainer p {
+  font-size: 0.75rem;
+  font-weight: 300;
+  margin-bottom: 0px;
+  color: #3b3b3b;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  text-align: justify;
+}
+
+.buyLottery {
+  background-color: #212529;
+  border: 1px solid #e3e3e3;
+  color: #e3e3e3;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 50%;
+  transition: 0.2s;
+}
+.buyLottery:hover {
+  background-color: #ffffff !important;
+  color: #212529 !important;
+  border: 1px solid #212529 !important;
+  font-weight: 600;
+}
+
+.lottery_ticket_card {
+  min-height: 175px !important;
+  max-height: 175px !important;
+}
+
+.declareDraw {
+  background-color: #212529;
+  border: 1px solid #e3e3e3;
+  color: #e3e3e3;
+  border-radius: 5px;
+  padding: 2px 7px;
+  font-size: 16px;
+  font-weight: 600;
+  width: -moz-fit-content;
+  width: fit-content;
+  transition: 0.2s;
+}
+.declareDraw:hover {
+  background-color: #ffffff !important;
+  color: #212529 !important;
+  border: 1px solid #212529 !important;
+  font-weight: 600;
+}
+
+.manager-lottery {
+  background-color: #212529 !important;
+  color: #ffffff;
+  margin-bottom: 100px !important;
+}
+
+.alert-danger {
+  margin: 0px 10px;
+  padding: 10px 20px !important;
+  transition: 0.5s;
+}
+
+.create_lottery_button {
+  background-color: #212529;
+  border: 1px solid #e3e3e3;
+  color: #e3e3e3;
+  border-radius: 5px;
+  font-style: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  width: 100%;
+  height: 100% !important;
+  transition: 0.4s;
+  min-height: 175px !important;
+  max-height: 175px !important;
+}
+.create_lottery_button .titleText {
+  display: none;
+  transition: 0.5s;
+  margin: auto;
+}
+.create_lottery_button:hover {
+  background-color: #676869 !important;
+  color: #ffffff !important;
+  border: 1px solid #212529 !important;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.create_lottery_button:hover svg {
+  display: none;
+}
+.create_lottery_button:hover .titleText {
+  display: block;
+}
+.create_lottery_button .card-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.create_lottery_button svg {
+  margin: 20px;
+}
+
+.createLotteryBtn {
+  background-color: #212529;
+  border: 1px solid #e3e3e3;
+  color: #e3e3e3;
+  border-radius: 5px;
+  margin: 10px;
+  font-style: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  width: 50%;
+  transition: 0.4s;
+}
+.createLotteryBtn:hover {
+  background-color: #ffffff !important;
+  color: #212529 !important;
+  border: 1px solid #212529 !important;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+}
+
+.player_tickets_link {
+  margin-left: 20px;
+  background-color: rgb(95, 95, 95) !important;
+  padding: 10px !important;
+  border-radius: 10px !important;
+}
+
+.player_tickets {
+  background-color: #212529 !important;
+  color: #ffffff;
+  margin-bottom: 100px !important;
+}
+
+.countdown {
+  font-size: 2rem;
+  font-family: "Digital", sans-serif;
+  color: #fff;
+  background-color: #212529;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.next-draw {
+  font-size: 1.5rem;
+  font-family: "Digital", sans-serif;
+  color: #fff;
+  background-color: #35383a;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.current-time {
+  font-size: 1.5rem;
+  font-family: "Digital", sans-serif;
+  color: #fff;
+  background-color: #3f4142;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.newSection {
+  margin-top: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

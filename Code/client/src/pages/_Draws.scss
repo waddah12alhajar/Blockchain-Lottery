@@ -1,0 +1,48 @@
+.countdown {
+    font-size: 2rem;
+    font-family: "Digital", sans-serif; // You may need to import a digital font
+    color: #fff; // Adjust the color as needed
+    background-color: #212529; // Background color
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; // Adjust the height as needed
+}
+
+.next-draw{
+    font-size: 1.5rem;
+    font-family: "Digital", sans-serif; // You may need to import a digital font
+    color: #fff; // Adjust the color as needed
+    background-color: #35383a; // Background color
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; // Adjust the height as needed
+}
+
+.current-time{
+    font-size: 1.5rem;
+    font-family: "Digital", sans-serif; // You may need to import a digital font
+    color: #fff; // Adjust the color as needed
+    background-color: #3f4142; // Background color
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; // Adjust the height as needed
+}
+
+.newSection{
+    margin-top: 20px;
+}

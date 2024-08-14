@@ -1,0 +1,19 @@
+// We only import the main style file here, all other styles are imported in the main style file
+@import './Navbar.scss';
+@import '../../pages/Footer.scss';
+@import './Home';
+@import './Error404';
+@import '../../pages/Connect.scss';
+@import '../../components/lottery-tickets/lottery_ticket';
+@import '../../pages/ManagerDashboard';
+@import '../../pages/Navbar';
+@import '../../pages/PlayerDashboard';
+@import '../../pages/Draws';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}

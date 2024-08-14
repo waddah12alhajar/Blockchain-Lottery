@@ -1,0 +1,19 @@
+.Error404{
+    // Completely centered
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // Full height
+    height: 100vh;
+    // Background color
+    background-color: #1a1a1a;
+    // Text color
+    color: #fff;
+    // Font size
+    font-size: 14px;
+    // Font weight
+    font-weight: 300;
+    // Text align
+    text-align: center;
+}

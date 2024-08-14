@@ -1,0 +1,44 @@
+.buyLottery{
+    // Make the button beautiful
+    background-color: #212529;
+    border: 1px solid #e3e3e3;
+    color: #e3e3e3;
+    border-radius: 5px;
+    // padding: 10px;
+    // margin: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 50%;
+    transition: 0.2s;
+    &:hover {
+        background-color: #ffffff !important;
+        color: #212529 !important;
+        border: 1px solid #212529 !important;
+        font-weight: 600;
+    }
+}
+
+.lottery_ticket_card{
+    min-height: 175px !important;
+    max-height: 175px !important;
+}
+
+.declareDraw{
+    // Make the button beautiful
+    background-color: #212529;
+    border: 1px solid #e3e3e3;
+    color: #e3e3e3;
+    border-radius: 5px;
+    padding: 2px 7px;
+    // margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    width: fit-content;
+    transition: 0.2s;
+    &:hover {
+        background-color: #ffffff !important;
+        color: #212529 !important;
+        border: 1px solid #212529 !important;
+        font-weight: 600;
+    }
+}
